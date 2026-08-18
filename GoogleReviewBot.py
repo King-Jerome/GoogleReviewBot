@@ -20,7 +20,7 @@ class GoogleReviewBot:
 
     def initialize(self):
         self.i = 0
-        PlaceURL = "--" #ENTER YOUR LINK HERE
+        PlaceURL = "https://www.google.com/search?sca_esv=6f8ed032ebdad2a8&sxsrf=APpeQnuzl9sOERRQ4wiBN9SYnqEPnt2A_A:1786854630232&q=Superior+servicing+rockhampton+reviews&sa=X&ved=2ahUKEwig-P-bqKSWAxVJieEIHRTMEDsQ1QJ6BAgwEAE&biw=1280&bih=591&dpr=1.25#lrd=0x4f154814a0e69029:0x54e6174dd35bc66a,3,,,,"
         self.driver = uc.Chrome()
         self.driver.delete_all_cookies()
         self.urls = ["https://accounts.google.com/signin/v2/identifier?hl=tr&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%26oq%3Dgoogle%26aqs%3Dchrome.0.69i59l3j0i271l2j69i60j69i65j69i60.706j0j1%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin",PlaceURL]
